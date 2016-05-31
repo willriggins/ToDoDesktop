@@ -25,6 +25,7 @@ public class Controller implements Initializable{
         ToDoItem item = new ToDoItem(text.getText(), false);
         items.add(item);
         text.clear();
+        //test
     }
 
     public void onRemove() {
